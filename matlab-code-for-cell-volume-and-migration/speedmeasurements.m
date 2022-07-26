@@ -1,6 +1,4 @@
 function [speed, velocity, persistence, cut] = speedmeasurements(num)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
 %num=xlsread('xls');
 clear speed velocity persistence displacement
 [r,c]=size(num);
