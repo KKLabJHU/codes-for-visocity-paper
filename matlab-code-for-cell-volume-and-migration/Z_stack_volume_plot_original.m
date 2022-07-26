@@ -3,7 +3,7 @@ close all
 clc
 
 % Change the path of the folder where you save your images
-fileFolder=fullfile('C:\Kaustav\KKLab\Matlab\Cell Volume Measurement\Run');
+fileFolder=fullfile('C:');
 
 dirOutput=dir(fullfile(fileFolder,'*'));
 fileNames={dirOutput.name}';
